@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+<style type="text/css">
+    /* 헤더 */
+    .main_menu_ul{list-style: none; margin:0 auto;}
+    .main_menu_li{text-align: center; line-height: 40px; font-size: 14px; float: left; color: white;}
+    #main_menu{width: 755px; height: 35px; float: left; margin-top:20px;
+    background-image:url(/img/main_menu_bg.png);}
+    /*position*/
+    #mainlogo{background-image: url(img/logo.png); width: 159px; height: 70px; float: left;  margin-top: 30px; margin-left: 10px; margin-right: 30px;}
+}
+    #member_menu_ul{list-style: none; margin:0 auto;}
+    #member_menu{width: 260px; height: 30px; float: right;
+        margin-top: 10px; margin-right: 30px;}
+    .member_menu_ul .member_menu_li{display:inline; border-left: 1px solid #c0c0c0; margin-left: 5px;}
+    .member_menu_ul .member_menu_li:first-child{border-left: none;}
+    .member_menu_li{font-size: 12px; margin-top:18px; }
+    
+    /* 사이드 메뉴 */
+    #side_menu{border-bottom: 1px solid lightgray; width: 200px; height: 800px; float: left;}
+    
+    
+    /*로그인*/
+    #loginbox{border: 1px solid #ededed; border-radius: 10px; width: 160px; height: 110px; margin: 20px; background-color: #f7f7f7;}
+    #logintextboxArea{width: 89px; float: left; margin-left: 3px;}
+    .logintextbox{border: 1px solid #ededed; width: 80px;}
+    #loginbox_btn{text-align: center;margin-bottom: 5px;}
+    
+    
+    /*방명록 */
+    .gray_box{border: 1px solid #cacaca; width: 160px; border-radius: 10px; margin-left: 20px; background-color:#eeeeee;
+        box-shadow: 2px 2px 4px 2px #e6e6e6;}
+    #qkdaudfhr_box{border-bottom: 1px solid #cacaca; width: 140px; height:35px;
+    margin-left: 8px; }
+    .qkd_list_ul{margin-top: 8px; list-style: none; margin-left: -35px; }
+    .qkd_list_li{font-size: 10px; line-height: 20px;  margin-left: 5px; list-style: inside; 
+        list-style-image:url(img/icon_blue.gif); } 
+    
+    
+    /*---------------------main--------------------*/
+    #main{border-bottom: 1px solid lightgray; width: 750px; height: 800px; float: left;}
+    #main1{/*border:1px solid purple;*/ width: 100%; height: 270px; }
+    #gongji{/*border: 1px solid black;*/ width: 360px; height: 250px; float: left;}
+    #gongji1{/*border: 1px solid red; */width: 100%; height: 120px;}
+    #gongji2{/*border: 1px solid red; */width: 100%; height: 120px;}
+    .latest_title{border-bottom: 1px solid lightgray; width: 360px; height: 25px; margin-top: 10px;}
+    .more{float: right;}
+    .lates_img{margin: 8px; float: left;}
+    .lates_text{float: left;}
+    .lates_text_title{/*border: 1px solid blue;*/ width: 160px; height: 70px;
+    font-size: 12px; margin-top: 10px; float: left;}
+    .lates_text_day{/*border: 1px solid blue;*/ width: 90px; height: 70px;
+    font-size: 12px; margin-top: 10px;float: left; text-align: right}
+    #youtube{/*border: 1px solid blue; */width: 371px;height: 250px; float: left; margin-left:19px;}
+    
+    
+    
+    
+    
+    .latest_title2{margin: 5px;}
+    .photogalbox{border: 1px solid lightgray; width: 730px; height: 200px;
+        border-radius:10px; margin-left: 12px; 
+        box-shadow: 1px 2px 2px 1px #ededed;}
+    .photobox1{/*border: 1px solid red;*/ margin-top: 25px; width: 200px; text-align: center;float: left; margin-left: 33px;}
+    .imgtitle{font-size:11px; margin-top: 3px;}
+    /*---------------------main끝--------------------*/
+    /*footer*/
+    #footer{/*border-top: 1px solid lightgray;*/ width: 100%; height: 150px; margin-top: 10px; }
+    #footer_infobox{/*border: 1px solid red; */width: 500px; height: 100%; margin-left: 20%; float: left; margin-top: 15px;}   
+    #footer_infobox_logo{/*border: 1px solid pink;*/ width: 220px; float: left;}
+    #footer_infotext{/*border: 1px solid blue; */width: 275px;
+        height: 50px; float: left; font-size: 11.5px; margin-top: 15px; color: gray} 
+     #snslogo_box{/*border:1px solid blue;*/ width: 85px; height: 40px; float: right; margin-right: 50px; margin-top: 30px;}
+    .snslogoimg{float: left; margin: 2px;}
+    
+    #all{width: 1000px; height: 1100px; background-color: white; margin: auto;}
+</style>
+</head>
+<body>
+    <div id="all">
+      <!--헤더시작-->
+       <div id="header" style="width: 998px; height: 12%; ">
+           <div id="mainlogo"></div>
+           <div id="member_menu">
+               <ul class="member_menu_ul">
+                  <li class="member_menu_li">HOME</li>
+                  <li class="member_menu_li">&nbsp;LOGIN</li>
+                  <li class="member_menu_li">&nbsp;JOIN</li>
+                  <li class="member_menu_li">&nbsp;NOTICE</li>
+               </ul>
+            </div>
+            <div id="main_menu" >
+                <ul class="main_menu_ul">
+                    <li class="main_menu_li" style="width: 90px; ">자유 게시판</li>
+                    <li class="main_menu_li" style="width: 140px; padding-left: 30px;">기타 연주</li>
+                    <li class="main_menu_li" style="width: 120px; padding-left: 30px;">공동 구매</li>
+                    <li class="main_menu_li" style="width: 120px; padding-left: 20px;">연주회 안내</li>
+                    <li class="main_menu_li" style="width: 120px; padding-left: 25px;">회원 게시판</li>
+                </ul>
+            </div>
+        </div>
+        <!--헤더끝-->
+        
+        <div id="side_menu">
+        <!--로그인-->        
+            <div id="loginbox">
+                <img src="img/ttl_login.png" style="margin: 7px; margin-top:10px;  width: 100px;">
+                <div id="logintextboxArea">
+                    <input type="text" class="logintextbox">
+                    <input type="password" class="logintextbox">
+                </div>                
+                <img src="img/btn_login.gif" style="margin:4px; width: 57px; ">
+                <div id="loginbox_btn">
+                    <img src="img/btn_join.gif" style="width: 39px;">
+                    <img src="img/btn_search.gif" style="width:100px;">
+                </div>
+            </div>
+            <!--로그인끝-->
+            
+            <!--방명록-->
+            <div class="gray_box">
+                <div id="qkdaudfhr_box">
+                    <img src="img/ttl_memo.gif" style="margin-top: 10px; margin-left: 5px; width: 40px;">
+                </div>
+                <div id="qkd_list">
+                    <ul class="qkd_list_ul">
+                        <li class="qkd_list_li"><span style="font-weight: bold;">안</span>녕하세요</li>
+                        <li class="qkd_list_li">안녕하세요</li>
+                        <li class="qkd_list_li">안녕하세요</li>
+                        <li class="qkd_list_li">안녕하세요</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--사이드 메누 끝 -->
+        <!-------------메인----------------->
+        <div id="main">
+            <img src="img/main_img.png">
+               <div id="main1">
+                <div id="gongji">
+                    <div id="gongji1">
+                        <div class="latest_title">
+                            <img src="img/latest1.gif">
+                            <img src="img/more.gif" class="more">
+                        </div>
+                        <div class="lates_img">
+                            <img src="img/book_pen.gif">
+                        </div>
+                        <div class="lates_text">
+                            <div class="lates_text_title">
+                                루바토 개편과 사이트 이용...<br/>
+                                루바토 개편과 사이트 이용...<br/>
+                                루바토 개편과 사이트 이용...<br/>
+                                루바토 개편과 사이트 이용...<br/>
+                            </div>
+                            <div class="lates_text_day">
+                                2017-09-20<br/>
+                                2017-09-20<br/>
+                                2017-09-20<br/>
+                                2017-09-20<br/>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div id="gongji2">
+                        <div class="latest_title">
+                           <img src="img/latest2.gif">
+                           <img src="img/more.gif" class="more">
+                        </div>
+                        <div class="lates_img">
+                            <img src="img/book_pen.gif">
+                        </div>
+                        <div class="lates_text">
+                            <div class="lates_text_title">
+                                까스통님의 선물인 보드카...<br/>
+                                까스통님의 선물인 보드카...<br/>
+                                까스통님의 선물인 보드카...<br/>
+                                까스통님의 선물인 보드카...<br/>
+                            </div>
+                            <div class="lates_text_day">
+                                2017-09-20<br/>
+                                2017-09-20<br/>
+                                2017-09-20<br/>
+                                2017-09-20<br/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="youtube">
+                    <div class="latest_title">
+                        <img src="img/latest3.gif">
+                        <img src="img/more.gif" class="more">
+                    </div>
+                    <img src="img/bach.jpg" style="margin-left: 14%; margin-top: 10px;">
+                </div>
+            </div>
+            <div id="photogal">
+                <div class="latest_title2">
+                    <img src="img/latest4.gif">
+                </div>
+                <div class="photogalbox">
+                    <div class="photobox1">
+                        <img src="img/img1.jpg">
+                        <div class="imgtitle">기타 페스티벌 4중주</div>
+                    </div>
+                    <div class="photobox1">
+                        <img src="img/img1.jpg">
+                        <div class="imgtitle">기타 페스티벌 4중주</div>
+                    </div>
+                    <div class="photobox1">
+                        <img src="img/img1.jpg">
+                        <div class="imgtitle">기타 페스티벌 4중주</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---------메인끝---------------->
+        <!--푸푸푸푸풋터-->
+        <div id="footer">
+            <div id="footer_infobox">
+                <div id="footer_infobox_logo">
+                    <img src="img/footer_logo.gif"/>
+                </div>
+                <div id="footer_infotext">
+                    서울시 강남구 삼성동 1234 우 : 123-1234<br/>
+                    TEL : 031-123-1234 Email : email@domain.com<br/>
+                        COPYRIGHT (C) 루바토 ALL RIGHTS RESERVED
+                </div>
+            </div>
+            <div id="snslogo_box">
+                <img class="snslogoimg" src="img/facebook.gif">
+                <img class="snslogoimg" src="img/blog.gif">
+                <img class="snslogoimg" src="img/twitter.gif">
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
